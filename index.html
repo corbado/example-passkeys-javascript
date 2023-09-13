@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Corbado</title>
+</head>
+
+<body>
+<script src="https://<PROJECT-ID>.frontendapi.corbado.io/auth.js"></script>
+<corbado-auth-provider project-id="pro-1191574164386091635">
+    <div slot="unauthed">
+        <corbado-auth project-id="<PROJECT-ID>" conditional="yes">
+            <input name="username" id="corbado-username" data-input="username" required autocomplete="webauthn" />
+        </corbado-auth>
+    </div>
+
+    <div slot="authed">
+        You're logged in. Click <a href="/profile">here</a> to visit the profile page.
+    </div>
+
+</corbado-auth-provider>
+</body>
+
+</html>
