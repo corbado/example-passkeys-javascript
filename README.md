@@ -4,11 +4,8 @@ This is a sample implementation of the Corbado web component being integrated in
 
 ## File structure
 
-- `src/index.html`: The login page
-- `src/profile.html`: The profile page that is only accessible after a successful login
-- `.env`: add Corbado project id as environment variables that you can obtain
-  from [Corbado developer panel](https://app.corbado.com/signin#register)
-
+- `index.html`: The login page
+- `profile.html`: The profile page that is only accessible after a successful login
 
 ## Prerequisites
 
