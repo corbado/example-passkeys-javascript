@@ -13,17 +13,15 @@ Please follow the steps in [Getting started](https://docs.corbado.com/overview/g
 a project in the [Corbado developer panel](https://app.corbado.com/signin#register).
 
 ## Usage
-We need a local webserver like [this](https://www.npmjs.com/package/http-server) to run the project locally.
-Run
+We need a local webserver to start our application. We chose the [http-server](https://www.npmjs.com/package/http-server) package for this.
+Install it with
 
 ```bash
 npm install --global http-server
 ```
 
-to install the mentioned local webserver.
-
-Finally, you can run the project locally with
+Then you can run the project locally with
 
 ```bash
-npx http-server ./
+http-server ./
 ```
