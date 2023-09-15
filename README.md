@@ -1,6 +1,6 @@
-# Complete passkeys integration example for plain Javascript with Corbado
+# Complete passkeys integration example for plain JavaScript with Corbado
 
-This is a sample implementation of the Corbado web component being integrated into a web application built with Javascript.
+This is a sample implementation of the Corbado web component being integrated into a web application built with JavaScript.
 
 ## File structure
 
