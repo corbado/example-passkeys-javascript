@@ -11,7 +11,7 @@ This is a sample implementation of the Corbado web component being integrated in
 
 Please follow the steps in [Getting started](https://docs.corbado.com/overview/getting-started) to create and configure
 a project in the [Corbado developer panel](https://app.corbado.com/signin#register). Most importantly, you need to
-obtain a `project ID` and insert it in the code for the placeholder `<project ID>`.
+obtain a `project ID` and insert it in the code for the placeholder `<PROJECT_ID>`.
 
 ## Usage
 We need a local webserver to start our application. We chose the [http-server](https://www.npmjs.com/package/http-server) package for this.
