@@ -1,4 +1,4 @@
-# Complete passkeys integration example for plain JavaScript with Corbado
+# Passkey-First Authentication with plain JavaScript and Corbado
 
 This is a sample implementation of the Corbado web component being integrated into a web application built with JavaScript.
 
