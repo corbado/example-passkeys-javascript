@@ -2,6 +2,8 @@
 
 This is a sample implementation of the Corbado web component being integrated into a web application built with JavaScript.
 
+Please see the [full blog post](https://www.corbado.com/blog/passkeys-javascript) to understand the detailed steps needed to integrate passkeys into JavaScript apps.
+
 ## File structure
 
 - `index.html`: The login page
