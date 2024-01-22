@@ -1,8 +1,10 @@
 # Passkey-First Authentication with plain JavaScript and Corbado
 
-This is a sample implementation of the Corbado web component being integrated into a web application built with JavaScript.
+This is a sample implementation of the Corbado Vanilla JavaScript component being integrated into a plain HTML, CSS &
+JavaScript web application.
 
-Please see the [full blog post](https://www.corbado.com/blog/passkeys-javascript) to understand the detailed steps needed to integrate passkeys into JavaScript apps.
+Please see the [full blog post](https://www.corbado.com/blog/passkeys-javascript) to understand the detailed steps
+needed to integrate passkeys into JavaScript apps.
 
 ## File structure
 
@@ -16,7 +18,9 @@ a project in the [Corbado developer panel](https://app.corbado.com/signin#regist
 obtain a `project ID` and insert it in the code for the placeholder `<PROJECT_ID>`.
 
 ## Usage
-We need a local webserver to start our application. We chose the [http-server](https://www.npmjs.com/package/http-server) package for this.
+
+We need a local webserver to start our application. We chose
+the [http-server](https://www.npmjs.com/package/http-server) package for this.
 Install it with
 
 ```bash

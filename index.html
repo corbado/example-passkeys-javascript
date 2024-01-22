@@ -3,22 +3,30 @@
 
 <head>
     <title>Corbado</title>
+
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/@corbado/web-js@0.1.1-alpha.6/dist/bundle/index.css"
+    />
+    <script src="https://unpkg.com/@corbado/web-js@0.1.1-alpha.6/dist/bundle/index.js"></script>
+
 </head>
-
 <body>
-    <script src="https://<PROJECT_ID>.frontendapi.corbado.io/auth.js"></script>
-    <corbado-auth-provider project-id="<PROJECT_ID>">
-        <div slot="unauthed">
-            <corbado-auth project-id="<PROJECT_ID>" conditional="yes">
-                <input name="username" id="corbado-username" data-input="username" required autocomplete="webauthn" />
-            </corbado-auth>
-        </div>
+<div id="corbado-auth"></div>
 
-        <div slot="authed">
-            You're logged in. Click <a href="/profile">here</a> to visit the profile page.
-        </div>
+<script>
+    Corbado.load({
+        projectId: "pro-2796694128247001826",
+    })
 
-    </corbado-auth-provider>
+    const authElement = document.getElementById('corbado-auth');
+
+    Corbado.mountAuthUI(authElement, {
+        onLoggedIn: () => {
+            window.location.href = '/profile.html';
+        },
+        isDevMode: true,
+    });
+</script>
 </body>
-
 </html>
