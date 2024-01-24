@@ -6,16 +6,16 @@
 
     <link
             rel="stylesheet"
-            href="https://unpkg.com/@corbado/web-js@0.1.1-alpha.6/dist/bundle/index.css"
+            href="https://unpkg.com/@corbado/web-js@latest/dist/bundle/index.css"
     />
-    <script src="https://unpkg.com/@corbado/web-js@0.1.1-alpha.6/dist/bundle/index.js"></script>
+    <script src="https://unpkg.com/@corbado/web-js@latest/dist/bundle/index.js"></script>
 
 </head>
 <body>
 <div id="corbado-auth"></div>
 
-<script>
-    Corbado.load({
+<script type="module">
+   await Corbado.load({
         projectId: "pro-2796694128247001826",
     })
 

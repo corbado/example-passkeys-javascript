@@ -6,9 +6,9 @@
 
     <link
             rel="stylesheet"
-            href="https://unpkg.com/@corbado/web-js@0.1.1-alpha.6/dist/bundle/index.css"
+            href="https://unpkg.com/@corbado/web-js@latest/dist/bundle/index.css"
     />
-    <script src="https://unpkg.com/@corbado/web-js@0.1.1-alpha.6/dist/bundle/index.js"></script>
+    <script src="https://unpkg.com/@corbado/web-js@latest/dist/bundle/index.js"></script>
 </head>
 <body>
 <div>
@@ -19,7 +19,7 @@
     </div>
 </div>
 <script type="module">
-    Corbado.load({
+    await Corbado.load({
         projectId: "pro-2796694128247001826",
     })
 
@@ -36,10 +36,9 @@
         })
     }
 
-
     const addLogoutButton = () => {
-        return createButton('Logout', () => {
-            Corbado.logout();
+        return createButton('Logout', async () => {
+            await Corbado.logout();
             window.location.href = '/index.html';
         })
     }
