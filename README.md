@@ -1,4 +1,4 @@
-# Passkey-First Authentication with Vanilla JavaScript and Corbado
+# JavaScript Passkey Example App
 
 This is a sample implementation of the Corbado Vanilla JavaScript component being integrated into a plain HTML, CSS &
 JavaScript web application.
